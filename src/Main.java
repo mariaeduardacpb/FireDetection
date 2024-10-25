@@ -6,7 +6,7 @@ public class Main {
     public static final int SIZE = 30;
     public static char[][] forest = new char[SIZE][SIZE];
     public static ReentrantLock forestLock = new ReentrantLock();
-    public static ForestGUI gui; // Adicionar a interface gráfica
+    public static ForestGUI gui; 
 
     public static void main(String[] args) {
         Thread[][] sensorThreads = new Thread[SIZE][SIZE];
